@@ -14,7 +14,7 @@ apiNotes.get('/api/notes', (req, res) => {
     })
     .catch(err => {
         console.error(err)
-        res.statusCode(404).json({ message: "Sorry, the notes are missing!" });
+        res.status(404).json({ message: "Sorry, the notes are missing!" });
     })
 })
 
@@ -55,7 +55,7 @@ apiNotes.delete('/api/notes/:id', (req, res) => {
             const noteIndex = db.findIndex(note => note.id === id);
 
             if (noteIndex === -1) {
-                res.statusCode(404).json({ message: "No note to delete"})
+                res.status(404).json({ message: "No note to delete"})
             } else {
             db.splice(noteIndex, 1);
 
