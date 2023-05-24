@@ -22,3 +22,4 @@ To use this application, click on the "Get started" button on the home page of t
 ## MIT
 
 [License Link](https://opensource.org/licenses/MIT)
+![note-taker-scrshot](https://github.com/Chris-Messa/note-taker/assets/39140839/aaa8b3df-01fe-43f4-a483-1c0080059d90)
